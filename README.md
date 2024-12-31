@@ -14,7 +14,8 @@ municipal employees.
 
 
 # OBJECTIVE OF PROJECT
-Design a Data Warehouse for NYC
+• Design a Data Warehouse for NYC
+
 • Develop a scalable and automated ETL Pipeline to load the payroll data NYC data
 warehouse
 
