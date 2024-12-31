@@ -17,9 +17,12 @@ municipal employees.
 Design a Data Warehouse for NYC
 • Develop a scalable and automated ETL Pipeline to load the payroll data NYC data
 warehouse
+
 • Develop aggregate table(s) in the Data warehouse for easy analysis of the key business
 questions
+
 • Ensure quality and consistency of data in your pipeline
+
 • Create a public user with limited privileges to enable public access to the NYC Data
 warehouse
 
