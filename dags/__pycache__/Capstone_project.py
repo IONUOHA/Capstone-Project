@@ -1,7 +1,7 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
-from capstone_project.etl import extract, transform, load  # Import your ETL functions
+from Capstone_project import extract, transform, load  # Import your ETL functions
 from datetime import datetime, timedelta
 
 
@@ -17,7 +17,7 @@ default_args ={
 
 ## istantiate the DAG
 with DAG(
-    'capstone_project_etl',
+    'Capstone_project',
     default_args = default_args,
     description = 'Capstone project',
     schedule_interval = '0 0 * * *',
