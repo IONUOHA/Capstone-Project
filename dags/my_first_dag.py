@@ -6,11 +6,11 @@ from datetime import datetime, timedelta
 
 
 ## setting default arguments
-default_args -{
-    'owner': 'Ike_Onuoha'
+default_args ={
+    'owner': 'Ike_Onuoha',
     'start_date': datetime(year=2025, month=1, day=12),
-    'email_on_failure': false,
-    'email_on_retry': false,
+    'email_on_failure': False,
+    'email_on_retry': False,
     'retries': None,  
 }
 
@@ -18,21 +18,21 @@ default_args -{
 ## istantiate the DAG
 with DAG(
     'my_first_DAG',
-    default_args - default_args,
-    description = 'an example DAG'
+    default_args = default_args,
+    description = 'an example DAG',
     schedule_interval = '0 0 * * *',
-    catchup - False
+    catchup = False
 ) as dag:
    ##def task 1
    start_task = DummyOperator(
-      task_id - 'Pipeline_start'
+      task_id = 'Pipeline_start'
    )
 
    # def task 2
    wait_task = BashOperator(
-      task_id - 'wait',
+      task_id = 'wait',
       bash_command = 'sleep 10'
-   )
+   ) 
 
    #def task 3
    end_task = DummyOperator(
