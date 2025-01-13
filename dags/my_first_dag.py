@@ -17,7 +17,7 @@ default_args ={
 
 ## istantiate the DAG
 with DAG(
-    'my_first_DAG',
+    'Capstone_project',
     default_args = default_args,
     description = 'an example DAG',
     schedule_interval = '0 0 * * *',
@@ -40,4 +40,4 @@ with DAG(
    )
 
    ## set dependencies
-   start_task >> wait_task >> end_task
+   start_task >> wait_task >> end_task  
