@@ -1,0 +1,60 @@
+[2025-01-12T14:13:31.040+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/capstone_project.py
+[2025-01-12T14:13:31.045+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2025-01-12T14:13:31.056+0000] {logging_mixin.py:190} INFO - [2025-01-12T14:13:31.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2025-01-12T14:13:31.165+0000] {logging_mixin.py:190} INFO - [2025-01-12T14:13:31.146+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2025-01-12T14:13:31.168+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2025-01-12T14:13:31.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.188 seconds
+[2025-01-12T14:14:02.150+0000] {processor.py:186} INFO - Started process (PID=137) to work on /opt/airflow/dags/capstone_project.py
+[2025-01-12T14:14:02.151+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2025-01-12T14:14:02.155+0000] {logging_mixin.py:190} INFO - [2025-01-12T14:14:02.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2025-01-12T14:14:02.182+0000] {logging_mixin.py:190} INFO - [2025-01-12T14:14:02.171+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2025-01-12T14:14:02.185+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2025-01-12T14:14:02.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.067 seconds
+[2025-01-12T14:14:32.485+0000] {processor.py:186} INFO - Started process (PID=203) to work on /opt/airflow/dags/capstone_project.py
+[2025-01-12T14:14:32.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2025-01-12T14:14:32.489+0000] {logging_mixin.py:190} INFO - [2025-01-12T14:14:32.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2025-01-12T14:14:32.508+0000] {logging_mixin.py:190} INFO - [2025-01-12T14:14:32.499+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2025-01-12T14:14:32.509+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2025-01-12T14:14:32.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.059 seconds
+[2025-01-12T14:15:03.035+0000] {processor.py:186} INFO - Started process (PID=269) to work on /opt/airflow/dags/capstone_project.py
+[2025-01-12T14:15:03.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/capstone_project.py for tasks to queue
+[2025-01-12T14:15:03.039+0000] {logging_mixin.py:190} INFO - [2025-01-12T14:15:03.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/capstone_project.py
+[2025-01-12T14:15:03.065+0000] {logging_mixin.py:190} INFO - [2025-01-12T14:15:03.053+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/capstone_project.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/capstone_project.py", line 5, in <module>
+    "execution_count": null,
+                       ^^^^
+NameError: name 'null' is not defined
+[2025-01-12T14:15:03.067+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/capstone_project.py
+[2025-01-12T14:15:03.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/capstone_project.py took 0.057 seconds
