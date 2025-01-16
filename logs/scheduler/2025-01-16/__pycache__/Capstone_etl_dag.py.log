@@ -4393,3 +4393,78 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'Capstone_project'
 [2025-01-16T21:19:09.221+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
 [2025-01-16T21:19:09.254+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/__pycache__/Capstone_etl_dag.py took 0.066 seconds
+[2025-01-16T21:19:39.381+0000] {processor.py:186} INFO - Started process (PID=17935) to work on /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+[2025-01-16T21:19:39.381+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/__pycache__/Capstone_etl_dag.py for tasks to queue
+[2025-01-16T21:19:39.383+0000] {logging_mixin.py:190} INFO - [2025-01-16T21:19:39.382+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+[2025-01-16T21:19:39.398+0000] {logging_mixin.py:190} INFO - [2025-01-16T21:19:39.395+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/__pycache__/Capstone_etl_dag.py", line 4, in <module>
+    from Capstone_project import extract, transform, load  # Import your ETL functions
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'Capstone_project'
+[2025-01-16T21:19:39.399+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+[2025-01-16T21:19:39.426+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/__pycache__/Capstone_etl_dag.py took 0.052 seconds
+[2025-01-16T21:22:36.126+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+[2025-01-16T21:22:36.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/__pycache__/Capstone_etl_dag.py for tasks to queue
+[2025-01-16T21:22:36.132+0000] {logging_mixin.py:190} INFO - [2025-01-16T21:22:36.131+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+[2025-01-16T21:22:36.162+0000] {logging_mixin.py:190} INFO - [2025-01-16T21:22:36.154+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/__pycache__/Capstone_etl_dag.py", line 4, in <module>
+    from Capstone_project import extract, transform, load  # Import your ETL functions
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'Capstone_project'
+[2025-01-16T21:22:36.165+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+[2025-01-16T21:22:36.197+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/__pycache__/Capstone_etl_dag.py took 0.081 seconds
+[2025-01-16T21:23:07.203+0000] {processor.py:186} INFO - Started process (PID=137) to work on /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+[2025-01-16T21:23:07.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/__pycache__/Capstone_etl_dag.py for tasks to queue
+[2025-01-16T21:23:07.207+0000] {logging_mixin.py:190} INFO - [2025-01-16T21:23:07.207+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+[2025-01-16T21:23:07.229+0000] {logging_mixin.py:190} INFO - [2025-01-16T21:23:07.222+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/__pycache__/Capstone_etl_dag.py", line 4, in <module>
+    from Capstone_project import extract, transform, load  # Import your ETL functions
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'Capstone_project'
+[2025-01-16T21:23:07.233+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+[2025-01-16T21:23:07.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/__pycache__/Capstone_etl_dag.py took 0.058 seconds
+[2025-01-16T21:23:37.655+0000] {processor.py:186} INFO - Started process (PID=202) to work on /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+[2025-01-16T21:23:37.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/__pycache__/Capstone_etl_dag.py for tasks to queue
+[2025-01-16T21:23:37.659+0000] {logging_mixin.py:190} INFO - [2025-01-16T21:23:37.658+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+[2025-01-16T21:23:37.679+0000] {logging_mixin.py:190} INFO - [2025-01-16T21:23:37.675+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/__pycache__/Capstone_etl_dag.py", line 4, in <module>
+    from Capstone_project import extract, transform, load  # Import your ETL functions
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'Capstone_project'
+[2025-01-16T21:23:37.682+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+[2025-01-16T21:23:37.700+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/__pycache__/Capstone_etl_dag.py took 0.052 seconds
+[2025-01-16T21:24:08.198+0000] {processor.py:186} INFO - Started process (PID=267) to work on /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+[2025-01-16T21:24:08.199+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/__pycache__/Capstone_etl_dag.py for tasks to queue
+[2025-01-16T21:24:08.203+0000] {logging_mixin.py:190} INFO - [2025-01-16T21:24:08.203+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+[2025-01-16T21:24:08.231+0000] {logging_mixin.py:190} INFO - [2025-01-16T21:24:08.224+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/__pycache__/Capstone_etl_dag.py", line 4, in <module>
+    from Capstone_project import extract, transform, load  # Import your ETL functions
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'Capstone_project'
+[2025-01-16T21:24:08.235+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/__pycache__/Capstone_etl_dag.py
+[2025-01-16T21:24:08.270+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/__pycache__/Capstone_etl_dag.py took 0.081 seconds
