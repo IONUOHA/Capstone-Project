@@ -1,8 +1,13 @@
 from airflow import DAG
+import pandas as pd
+from sqlalchemy import create_engine, text
+from dotenv import load_dotenv
+import os
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.bash_operator import BashOperator
 from airflow.operators.dummy_operator import DummyOperator
 from datetime import datetime, timedelta
+from airflow.models import Variable
 
 # Define ETL functions
 def extract(**kwargs):
