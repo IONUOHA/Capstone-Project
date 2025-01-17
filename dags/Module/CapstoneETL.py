@@ -130,8 +130,7 @@ def load(**kwargs):
     print("Loading data...")
     # Your loading logic here
   
-! pip install sqlalchemy
-%pip install python-dotenv
+
 from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
 import os
