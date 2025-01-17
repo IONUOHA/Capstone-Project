@@ -865,3 +865,139 @@ Traceback (most recent call last):
 SyntaxError: invalid syntax
 [2025-01-17T14:55:12.562+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
 [2025-01-17T14:55:12.579+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.049 seconds
+[2025-01-17T14:57:42.261+0000] {processor.py:186} INFO - Started process (PID=65) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:57:42.262+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:57:42.266+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:57:42.265+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:57:42.302+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:57:42.299+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 184
+    task_id = 'Extract_data'
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-01-17T14:57:42.303+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:57:42.340+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.091 seconds
+[2025-01-17T14:58:12.730+0000] {processor.py:186} INFO - Started process (PID=73) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:58:12.731+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:58:12.735+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:58:12.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:58:12.762+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:58:12.761+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 184
+    task_id = 'Extract_data'
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-01-17T14:58:12.763+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:58:12.801+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.079 seconds
+[2025-01-17T14:58:43.215+0000] {processor.py:186} INFO - Started process (PID=81) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:58:43.218+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:58:43.222+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:58:43.222+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:58:43.246+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:58:43.245+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 184
+    task_id = 'Extract_data'
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-01-17T14:58:43.247+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:58:43.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.076 seconds
+[2025-01-17T14:59:13.694+0000] {processor.py:186} INFO - Started process (PID=89) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:59:13.695+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:59:13.697+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:59:13.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:59:13.717+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:59:13.716+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 184
+    task_id = 'Extract_data'
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-01-17T14:59:13.717+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:59:13.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.056 seconds
+[2025-01-17T14:59:44.079+0000] {processor.py:186} INFO - Started process (PID=96) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:59:44.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:59:44.084+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:59:44.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:59:44.102+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:59:44.102+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 184
+    task_id = 'Extract_data'
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-01-17T14:59:44.103+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:59:44.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.060 seconds
+[2025-01-17T15:00:14.562+0000] {processor.py:186} INFO - Started process (PID=104) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T15:00:14.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T15:00:14.566+0000] {logging_mixin.py:190} INFO - [2025-01-17T15:00:14.565+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T15:00:14.596+0000] {logging_mixin.py:190} INFO - [2025-01-17T15:00:14.594+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 184
+    task_id = 'Extract_data'
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-01-17T15:00:14.597+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T15:00:14.623+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.067 seconds
+[2025-01-17T15:00:45.031+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T15:00:45.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T15:00:45.034+0000] {logging_mixin.py:190} INFO - [2025-01-17T15:00:45.034+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T15:00:45.065+0000] {logging_mixin.py:190} INFO - [2025-01-17T15:00:45.063+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 184
+    task_id = 'Extract_data'
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-01-17T15:00:45.066+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T15:00:45.100+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.076 seconds
+[2025-01-17T15:01:14.435+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T15:01:14.436+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T15:01:14.438+0000] {logging_mixin.py:190} INFO - [2025-01-17T15:01:14.438+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T15:01:14.459+0000] {logging_mixin.py:190} INFO - [2025-01-17T15:01:14.458+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 191
+    python_callable=transform_data
+                    
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-01-17T15:01:14.460+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T15:01:14.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.051 seconds

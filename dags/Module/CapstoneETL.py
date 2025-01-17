@@ -181,7 +181,7 @@ with DAG(
 ) as dag:
    ##def task 1
    Extract_task = DummyOperator(
-      task_id = 'Extract_data'
+      task_id = 'Extract_data',
       python_callable=extract_data
    )
 
