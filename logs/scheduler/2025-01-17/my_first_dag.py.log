@@ -1,0 +1,304 @@
+[2025-01-17T14:15:44.868+0000] {processor.py:186} INFO - Started process (PID=68) to work on /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:15:44.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2025-01-17T14:15:44.874+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:15:44.873+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:15:44.950+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:15:44.940+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_first_dag.py", line 19, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'test project' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-01-17T14:15:44.952+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:15:44.978+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.125 seconds
+[2025-01-17T14:16:15.222+0000] {processor.py:186} INFO - Started process (PID=75) to work on /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:16:15.223+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2025-01-17T14:16:15.225+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:16:15.224+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:16:15.248+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:16:15.243+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_first_dag.py", line 19, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'test project' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-01-17T14:16:15.249+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:16:15.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.058 seconds
+[2025-01-17T14:16:45.549+0000] {processor.py:186} INFO - Started process (PID=82) to work on /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:16:45.549+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2025-01-17T14:16:45.551+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:16:45.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:16:45.572+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:16:45.567+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_first_dag.py", line 19, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'test project' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-01-17T14:16:45.573+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:16:45.600+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.056 seconds
+[2025-01-17T14:17:15.794+0000] {processor.py:186} INFO - Started process (PID=89) to work on /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:17:15.795+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2025-01-17T14:17:15.797+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:17:15.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:17:15.815+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:17:15.811+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_first_dag.py", line 19, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'test project' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-01-17T14:17:15.816+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:17:15.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.055 seconds
+[2025-01-17T14:17:46.102+0000] {processor.py:186} INFO - Started process (PID=96) to work on /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:17:46.103+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2025-01-17T14:17:46.107+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:17:46.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:17:46.135+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:17:46.127+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_first_dag.py", line 19, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'test project' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-01-17T14:17:46.136+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:17:46.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.074 seconds
+[2025-01-17T14:18:16.376+0000] {processor.py:186} INFO - Started process (PID=104) to work on /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:18:16.378+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2025-01-17T14:18:16.389+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:18:16.388+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:18:16.414+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:18:16.410+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_first_dag.py", line 19, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'test project' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-01-17T14:18:16.415+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:18:16.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.072 seconds
+[2025-01-17T14:18:46.697+0000] {processor.py:186} INFO - Started process (PID=111) to work on /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:18:46.698+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2025-01-17T14:18:46.702+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:18:46.701+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:18:46.736+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:18:46.731+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_first_dag.py", line 19, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'test project' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-01-17T14:18:46.737+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:18:46.768+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.077 seconds
+[2025-01-17T14:19:17.098+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:19:17.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2025-01-17T14:19:17.101+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:19:17.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:19:17.119+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:19:17.115+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_first_dag.py", line 19, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'test project' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-01-17T14:19:17.120+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:19:17.147+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.054 seconds
+[2025-01-17T14:19:47.418+0000] {processor.py:186} INFO - Started process (PID=126) to work on /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:19:47.419+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2025-01-17T14:19:47.423+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:19:47.422+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:19:47.442+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:19:47.438+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_first_dag.py", line 19, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'test project' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-01-17T14:19:47.443+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:19:47.463+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.051 seconds
+[2025-01-17T14:20:17.737+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:20:17.738+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2025-01-17T14:20:17.741+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:20:17.741+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:20:17.760+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:20:17.755+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_first_dag.py", line 19, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'test project' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-01-17T14:20:17.760+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:20:17.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.056 seconds
+[2025-01-17T14:20:48.180+0000] {processor.py:186} INFO - Started process (PID=143) to work on /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:20:48.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2025-01-17T14:20:48.183+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:20:48.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:20:48.202+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:20:48.198+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_first_dag.py", line 19, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'test project' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-01-17T14:20:48.203+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:20:48.230+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.057 seconds
+[2025-01-17T14:21:18.612+0000] {processor.py:186} INFO - Started process (PID=152) to work on /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:21:18.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2025-01-17T14:21:18.615+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:21:18.615+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:21:18.639+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:21:18.633+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_first_dag.py", line 19, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'test project' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-01-17T14:21:18.639+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:21:18.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.053 seconds
+[2025-01-17T14:21:49.167+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:21:49.168+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2025-01-17T14:21:49.172+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:21:49.172+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:21:49.197+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:21:49.193+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_first_dag.py", line 19, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'test project' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-01-17T14:21:49.198+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:21:49.219+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.057 seconds
+[2025-01-17T14:22:19.626+0000] {processor.py:186} INFO - Started process (PID=170) to work on /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:22:19.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2025-01-17T14:22:19.629+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:22:19.629+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:22:19.647+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:22:19.643+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_first_dag.py", line 19, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'test project' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-01-17T14:22:19.648+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:22:19.675+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.055 seconds
+[2025-01-17T14:22:50.144+0000] {processor.py:186} INFO - Started process (PID=178) to work on /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:22:50.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2025-01-17T14:22:50.148+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:22:50.147+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:22:50.167+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:22:50.162+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_first_dag.py", line 19, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'test project' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-01-17T14:22:50.168+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:22:50.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.058 seconds
+[2025-01-17T14:23:20.641+0000] {processor.py:186} INFO - Started process (PID=187) to work on /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:23:20.642+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2025-01-17T14:23:20.644+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:23:20.644+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:23:20.669+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:23:20.664+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_first_dag.py", line 19, in <module>
+    with DAG(
+         ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'test project' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2025-01-17T14:23:20.670+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_first_dag.py
+[2025-01-17T14:23:20.694+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.061 seconds
