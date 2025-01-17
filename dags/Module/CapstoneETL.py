@@ -188,7 +188,7 @@ with DAG(
    # def task 2
    Transform_task = BashOperator(
       task_id = 'transform_data',
-      python_callable=transform_data
+      python_callable=transform_data,
       bash_command = 'sleep 10'
    ) 
 
