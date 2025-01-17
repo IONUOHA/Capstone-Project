@@ -129,7 +129,7 @@ nyc_payroll_combined.rename(columns={'fiscalyear':'fiscal_year','payrollnumber':
 def load(**kwargs):
     print("Loading data...")
     # Your loading logic here
-    %pip install psycopg2
+  
 ! pip install sqlalchemy
 %pip install python-dotenv
 from sqlalchemy import create_engine, text
