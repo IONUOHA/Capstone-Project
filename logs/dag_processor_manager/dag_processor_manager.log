@@ -1030,3 +1030,283 @@ File Path                                                                       
 /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.05s           2025-01-17T14:14:04                       3
 ================================================================================
 [2025-01-17T14:14:09.601+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-01-17T14:15:44.691+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-01-17T14:15:44.692+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-01-17T14:15:44.693+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-01-17T14:15:44.694+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-17T14:15:44.720+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-01-17T14:15:44.868+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/my_first_dag.py     68  0.04s             0           0                                                   0
+================================================================================
+[2025-01-17T14:16:15.207+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/my_first_dag.py     75  0.00s             0           1  0.17s           2025-01-17T14:15:44                       3
+================================================================================
+[2025-01-17T14:16:45.535+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/my_first_dag.py     82  0.00s             0           1  0.08s           2025-01-17T14:16:15                       5
+================================================================================
+[2025-01-17T14:17:15.781+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/my_first_dag.py     89  0.00s             0           1  0.08s           2025-01-17T14:16:45                       5
+================================================================================
+[2025-01-17T14:17:46.085+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/my_first_dag.py     96  0.01s             0           1  0.07s           2025-01-17T14:17:15                       5
+================================================================================
+[2025-01-17T14:18:16.362+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/my_first_dag.py    104  0.00s             0           1  0.09s           2025-01-17T14:17:46                       5
+================================================================================
+[2025-01-17T14:18:46.674+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/my_first_dag.py    111  0.00s             0           1  0.09s           2025-01-17T14:18:16                       5
+================================================================================
+[2025-01-17T14:19:17.077+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/my_first_dag.py    118  0.01s             0           1  0.11s           2025-01-17T14:18:46                       5
+================================================================================
+[2025-01-17T14:19:47.403+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/my_first_dag.py    126  0.00s             0           1  0.08s           2025-01-17T14:19:17                       5
+================================================================================
+[2025-01-17T14:20:17.725+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/my_first_dag.py    134  0.00s             0           1  0.07s           2025-01-17T14:19:47                       5
+================================================================================
+[2025-01-17T14:20:44.974+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-17T14:20:45.034+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2025-01-17T14:20:48.167+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Module/CapstoneETL copy.py                           0           1  0.08s           2025-01-17T14:20:45                       3
+/opt/airflow/dags/my_first_dag.py               143  0.00s             0           1  0.08s           2025-01-17T14:20:17                       5
+/opt/airflow/dags/Module/CapstoneETL.py                                0           1  0.07s           2025-01-17T14:20:45                       3
+================================================================================
+[2025-01-17T14:21:18.599+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Module/CapstoneETL copy.py                           0           1  0.08s           2025-01-17T14:21:15                       5
+/opt/airflow/dags/Module/CapstoneETL.py                                0           1  0.07s           2025-01-17T14:21:15                       5
+/opt/airflow/dags/my_first_dag.py               152  0.00s             0           1  0.07s           2025-01-17T14:20:48                       5
+================================================================================
+[2025-01-17T14:21:49.151+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Module/CapstoneETL copy.py                           0           1  0.09s           2025-01-17T14:21:46                       5
+/opt/airflow/dags/my_first_dag.py               161  0.00s             0           1  0.08s           2025-01-17T14:21:18                       5
+/opt/airflow/dags/Module/CapstoneETL.py                                0           1  0.07s           2025-01-17T14:21:46                       5
+================================================================================
+[2025-01-17T14:22:19.612+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/my_first_dag.py               170  0.01s             0           1  0.08s           2025-01-17T14:21:49                       5
+/opt/airflow/dags/Module/CapstoneETL copy.py                           0           1  0.06s           2025-01-17T14:22:16                       5
+/opt/airflow/dags/Module/CapstoneETL.py                                0           1  0.06s           2025-01-17T14:22:15                       5
+================================================================================
+[2025-01-17T14:22:50.128+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/my_first_dag.py               178  0.00s             0           1  0.07s           2025-01-17T14:22:19                       5
+/opt/airflow/dags/Module/CapstoneETL.py                                0           1  0.07s           2025-01-17T14:22:46                       5
+/opt/airflow/dags/Module/CapstoneETL copy.py                           0           1  0.06s           2025-01-17T14:22:47                       5
+================================================================================
+[2025-01-17T14:23:20.624+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Module/CapstoneETL copy.py                           0           1  0.12s           2025-01-17T14:23:17                       5
+/opt/airflow/dags/Module/CapstoneETL.py                                0           1  0.09s           2025-01-17T14:23:16                       5
+/opt/airflow/dags/my_first_dag.py               187  0.01s             0           1  0.08s           2025-01-17T14:22:50                       5
+================================================================================
+[2025-01-17T14:23:51.325+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/my_first_dag.py               196  0.01s             0           1  0.09s           2025-01-17T14:23:20                       5
+/opt/airflow/dags/Module/CapstoneETL.py                                0           1  0.09s           2025-01-17T14:23:47                       5
+/opt/airflow/dags/Module/CapstoneETL copy.py                           0           1  0.08s           2025-01-17T14:23:48                       5
+================================================================================
+[2025-01-17T14:24:13.696+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-01-17T14:26:04.497+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-01-17T14:26:04.499+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-01-17T14:26:04.501+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-01-17T14:26:04.503+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-17T14:26:04.613+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2025-01-17T14:26:04.812+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/my_first_dag.py                                      0           0                                                   0
+/opt/airflow/dags/Module/CapstoneETL copy.py     70  0.05s             0           0                                                   0
+/opt/airflow/dags/Module/CapstoneETL.py          69  0.08s             0           0                                                   0
+================================================================================
+[2025-01-17T14:26:35.299+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/my_first_dag.py                                      0           1  0.18s           2025-01-17T14:26:05                       5
+/opt/airflow/dags/Module/CapstoneETL.py          78  0.02s             0           1  0.15s           2025-01-17T14:26:04                       5
+/opt/airflow/dags/Module/CapstoneETL copy.py     79  0.00s             0           1  0.15s           2025-01-17T14:26:04                       5
+================================================================================
+[2025-01-17T14:27:05.716+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Module/CapstoneETL copy.py     88  0.00s             0           1  0.07s           2025-01-17T14:26:35                       5
+/opt/airflow/dags/Module/CapstoneETL.py          87  0.02s             0           1  0.07s           2025-01-17T14:26:35                       5
+/opt/airflow/dags/my_first_dag.py                                      0           1  0.06s           2025-01-17T14:26:35                       5
+================================================================================
+[2025-01-17T14:27:36.183+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Module/CapstoneETL copy.py     97  0.00s             0           1  0.12s           2025-01-17T14:27:05                       5
+/opt/airflow/dags/Module/CapstoneETL.py          96  0.01s             0           1  0.11s           2025-01-17T14:27:05                       5
+/opt/airflow/dags/my_first_dag.py                                      0           1  0.10s           2025-01-17T14:27:05                       5
+================================================================================
+[2025-01-17T14:28:06.612+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Module/CapstoneETL copy.py    106  0.00s             0           1  0.07s           2025-01-17T14:27:36                       5
+/opt/airflow/dags/Module/CapstoneETL.py         105  0.02s             0           1  0.07s           2025-01-17T14:27:36                       5
+/opt/airflow/dags/my_first_dag.py                                      0           1  0.06s           2025-01-17T14:27:36                       5
+================================================================================
+[2025-01-17T14:28:28.921+0000] {manager.py:1291} WARNING - Skipping processing of missing file: /opt/airflow/dags/Module/CapstoneETL copy.py
+[2025-01-17T14:28:37.026+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Module/CapstoneETL.py    114  0.01s             0           1  0.08s           2025-01-17T14:28:06                       5
+/opt/airflow/dags/my_first_dag.py          115  0.00s             0           1  0.08s           2025-01-17T14:28:06                       5
+================================================================================
+[2025-01-17T14:29:07.328+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Module/CapstoneETL.py    122  0.02s             0           1  0.08s           2025-01-17T14:28:37                       5
+/opt/airflow/dags/my_first_dag.py          123  0.00s             0           1  0.08s           2025-01-17T14:28:37                       5
+================================================================================
+[2025-01-17T14:29:37.655+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Module/CapstoneETL.py    130  0.01s             0           1  0.07s           2025-01-17T14:29:07                       5
+/opt/airflow/dags/my_first_dag.py          131  0.00s             0           1  0.07s           2025-01-17T14:29:07                       5
+================================================================================
+[2025-01-17T14:30:07.983+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Module/CapstoneETL.py    138  0.01s             0           1  0.09s           2025-01-17T14:29:37                       5
+/opt/airflow/dags/my_first_dag.py          139  0.00s             0           1  0.08s           2025-01-17T14:29:37                       5
+================================================================================
+[2025-01-17T14:30:38.403+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/my_first_dag.py          147  0.00s             0           1  0.07s           2025-01-17T14:30:08                       5
+/opt/airflow/dags/Module/CapstoneETL.py    146  0.01s             0           1  0.07s           2025-01-17T14:30:08                       5
+================================================================================
+[2025-01-17T14:31:04.671+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-17T14:31:04.727+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-01-17T14:31:08.807+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Module/CapstoneETL.py    154  0.01s             0           1  0.08s           2025-01-17T14:30:38                       5
+/opt/airflow/dags/my_first_dag.py          155  0.00s             0           1  0.07s           2025-01-17T14:30:38                       5
+================================================================================
+[2025-01-17T14:31:39.162+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.51s           2025-01-17T14:31:15                      45
+/opt/airflow/dags/Module/CapstoneETL.py    163  0.00s             0           1  0.08s           2025-01-17T14:31:08                       5
+================================================================================
+[2025-01-17T14:31:51.767+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15

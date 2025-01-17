@@ -17,7 +17,7 @@ default_args ={
 
 ## istantiate the DAG
 with DAG(
-    'test project',
+    'test_project',
     default_args = default_args,
     description = 'an example DAG',
     schedule_interval = '0 0 * * *',

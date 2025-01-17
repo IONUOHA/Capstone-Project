@@ -100,3 +100,224 @@ Traceback (most recent call last):
 SyntaxError: invalid syntax
 [2025-01-17T14:23:16.509+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
 [2025-01-17T14:23:16.530+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.065 seconds
+[2025-01-17T14:23:47.027+0000] {processor.py:186} INFO - Started process (PID=194) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:23:47.029+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:23:47.032+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:23:47.031+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:23:47.051+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:23:47.050+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 132
+    %pip install psycopg2
+    ^
+SyntaxError: invalid syntax
+[2025-01-17T14:23:47.051+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:23:47.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.060 seconds
+[2025-01-17T14:26:04.786+0000] {processor.py:186} INFO - Started process (PID=69) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:26:04.788+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:26:04.792+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:26:04.792+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:26:04.828+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:26:04.825+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 132
+    %pip install psycopg2
+    ^
+SyntaxError: invalid syntax
+[2025-01-17T14:26:04.829+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:26:04.874+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.113 seconds
+[2025-01-17T14:26:35.301+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:26:35.302+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:26:35.305+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:26:35.305+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:26:35.322+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:26:35.320+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 132
+    %pip install psycopg2
+    ^
+SyntaxError: invalid syntax
+[2025-01-17T14:26:35.323+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:26:35.346+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.050 seconds
+[2025-01-17T14:27:05.733+0000] {processor.py:186} INFO - Started process (PID=87) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:27:05.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:27:05.738+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:27:05.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:27:05.768+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:27:05.767+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 132
+    %pip install psycopg2
+    ^
+SyntaxError: invalid syntax
+[2025-01-17T14:27:05.769+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:27:05.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.084 seconds
+[2025-01-17T14:27:36.187+0000] {processor.py:186} INFO - Started process (PID=96) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:27:36.188+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:27:36.191+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:27:36.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:27:36.213+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:27:36.211+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 132
+    %pip install psycopg2
+    ^
+SyntaxError: invalid syntax
+[2025-01-17T14:27:36.214+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:27:36.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.055 seconds
+[2025-01-17T14:28:06.614+0000] {processor.py:186} INFO - Started process (PID=105) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:28:06.615+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:28:06.620+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:28:06.619+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:28:06.637+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:28:06.635+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 132
+    %pip install psycopg2
+    ^
+SyntaxError: invalid syntax
+[2025-01-17T14:28:06.638+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:28:06.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.057 seconds
+[2025-01-17T14:28:37.043+0000] {processor.py:186} INFO - Started process (PID=114) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:28:37.045+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:28:37.046+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:28:37.046+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:28:37.067+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:28:37.066+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 132
+    %pip install psycopg2
+    ^
+SyntaxError: invalid syntax
+[2025-01-17T14:28:37.068+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:28:37.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.060 seconds
+[2025-01-17T14:29:07.335+0000] {processor.py:186} INFO - Started process (PID=122) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:29:07.336+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:29:07.337+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:29:07.337+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:29:07.357+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:29:07.356+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 132
+    %pip install psycopg2
+    ^
+SyntaxError: invalid syntax
+[2025-01-17T14:29:07.358+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:29:07.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.045 seconds
+[2025-01-17T14:29:37.665+0000] {processor.py:186} INFO - Started process (PID=130) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:29:37.667+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:29:37.669+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:29:37.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:29:37.696+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:29:37.694+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 132
+    %pip install psycopg2
+    ^
+SyntaxError: invalid syntax
+[2025-01-17T14:29:37.697+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:29:37.718+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.059 seconds
+[2025-01-17T14:30:07.988+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:30:07.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:30:07.991+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:30:07.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:30:08.009+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:30:08.008+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 132
+    %pip install psycopg2
+    ^
+SyntaxError: invalid syntax
+[2025-01-17T14:30:08.010+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:30:08.031+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.049 seconds
+[2025-01-17T14:30:38.410+0000] {processor.py:186} INFO - Started process (PID=146) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:30:38.411+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:30:38.412+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:30:38.412+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:30:38.431+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:30:38.430+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 132
+    %pip install psycopg2
+    ^
+SyntaxError: invalid syntax
+[2025-01-17T14:30:38.431+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:30:38.461+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.057 seconds
+[2025-01-17T14:31:08.816+0000] {processor.py:186} INFO - Started process (PID=154) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:31:08.817+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:31:08.819+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:31:08.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:31:08.839+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:31:08.838+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 132
+    %pip install psycopg2
+    ^
+SyntaxError: invalid syntax
+[2025-01-17T14:31:08.840+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:31:08.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.060 seconds
+[2025-01-17T14:31:39.179+0000] {processor.py:186} INFO - Started process (PID=163) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:31:39.180+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-17T14:31:39.181+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:31:39.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:31:39.202+0000] {logging_mixin.py:190} INFO - [2025-01-17T14:31:39.201+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 132
+    %pip install psycopg2
+    ^
+SyntaxError: invalid syntax
+[2025-01-17T14:31:39.203+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-17T14:31:39.220+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.045 seconds
