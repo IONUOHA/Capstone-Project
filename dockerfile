@@ -1,17 +1,10 @@
-FROM apache/airflow:2.10.4
+from apache/airflow:2.10.4
 
-#copy requirements.txt file to the container
-COPY requirements.txt /requirements.txt
+# copy requirements.txt file to the container
+copy requirements.txt /requirements.txt
 
 #upgrade pip
-Run pip install --upgrade pip
-
+run pip install --upgrade pip
 
 ## install libraries
-Run pip install --no-cache-dir -r /requirements.txt
-
-
-
-
-
-
+run pip install --no-cache-dir -r /requirements.txt

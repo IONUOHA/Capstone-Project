@@ -1,5 +1,0 @@
-pandas
-sqlalchemy
-python-dotenv
-numpy
-load_dotenv

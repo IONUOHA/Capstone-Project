@@ -286,4 +286,3 @@ services:
 
 volumes:
   postgres-db-volume:
-
