@@ -120,10 +120,10 @@ def etl_process():
 # Define default args for Airflow DAG
 default_args = {
     'owner': 'Ike onuoha',
-        'start_date': datetime(year=2025, month=1, day=12),
+        'start_date': datetime(year=2025, month=1, day=22),
     'email_on_failure': False,
     'email_on_retry': False,
-    'retries': None,  
+    'retries': 1,  
 }
 
 # Define the DAG
@@ -143,3 +143,4 @@ with DAG(
 
 # Set dependencies (if any)
 etl_task
+
