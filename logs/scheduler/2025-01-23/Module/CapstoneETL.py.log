@@ -1,0 +1,492 @@
+[2025-01-23T00:00:35.459+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:00:35.462+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:00:35.469+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:00:35.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:00:38.280+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:00:38.559+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:00:38.558+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:Capstone_NYC
+[2025-01-23T00:00:38.594+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:00:38.593+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:Capstone_NYC
+[2025-01-23T00:00:38.622+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:00:38.622+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:Capstone_NYC
+[2025-01-23T00:00:38.655+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:00:38.654+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:Capstone_NYC
+[2025-01-23T00:00:38.669+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:00:38.669+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:Capstone_NYC
+[2025-01-23T00:00:38.683+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:00:38.682+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:Capstone_NYC
+[2025-01-23T00:00:38.695+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:00:38.694+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:Capstone_NYC
+[2025-01-23T00:00:38.699+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:00:38.698+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:00:38.734+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:00:38.734+0000] {dag.py:3262} INFO - Creating ORM DAG for Capstone_NYC
+[2025-01-23T00:00:38.762+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:00:38.762+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-22 00:00:00+00:00, run_after=2025-01-23 00:00:00+00:00
+[2025-01-23T00:00:38.830+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 3.383 seconds
+[2025-01-23T00:01:09.029+0000] {processor.py:186} INFO - Started process (PID=81) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:01:09.030+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:01:09.032+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:01:09.032+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:01:09.422+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:01:09.441+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:01:09.441+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:01:09.460+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:01:09.460+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-22 00:00:00+00:00, run_after=2025-01-23 00:00:00+00:00
+[2025-01-23T00:01:09.475+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.451 seconds
+[2025-01-23T00:01:39.534+0000] {processor.py:186} INFO - Started process (PID=90) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:01:39.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:01:39.537+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:01:39.537+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:01:40.009+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:01:40.032+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:01:40.031+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:01:40.053+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:01:40.053+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-22 00:00:00+00:00, run_after=2025-01-23 00:00:00+00:00
+[2025-01-23T00:01:40.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.544 seconds
+[2025-01-23T00:02:10.879+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:02:10.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:02:10.883+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:02:10.882+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:02:11.278+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:02:11.296+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:02:11.295+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:02:11.315+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:02:11.314+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-22 00:00:00+00:00, run_after=2025-01-23 00:00:00+00:00
+[2025-01-23T00:02:11.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.458 seconds
+[2025-01-23T00:02:41.413+0000] {processor.py:186} INFO - Started process (PID=109) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:02:41.414+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:02:41.416+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:02:41.416+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:02:41.880+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:02:41.901+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:02:41.900+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:02:41.919+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:02:41.919+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:02:41.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.530 seconds
+[2025-01-23T00:03:12.705+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:03:12.706+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:03:12.708+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:03:12.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:03:13.196+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:03:13.224+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:03:13.223+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:03:13.247+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:03:13.247+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:03:13.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.566 seconds
+[2025-01-23T00:03:44.175+0000] {processor.py:186} INFO - Started process (PID=127) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:03:44.176+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:03:44.179+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:03:44.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:03:44.642+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:03:44.665+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:03:44.664+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:03:44.684+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:03:44.683+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:03:44.712+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.543 seconds
+[2025-01-23T00:04:15.610+0000] {processor.py:186} INFO - Started process (PID=136) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:04:15.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:04:15.614+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:04:15.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:04:16.052+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:04:16.072+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:04:16.071+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:04:16.092+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:04:16.091+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:04:16.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.516 seconds
+[2025-01-23T00:04:46.284+0000] {processor.py:186} INFO - Started process (PID=145) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:04:46.285+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:04:46.287+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:04:46.287+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:04:46.695+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:04:46.719+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:04:46.719+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:04:46.743+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:04:46.743+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:04:46.766+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.488 seconds
+[2025-01-23T00:05:17.543+0000] {processor.py:186} INFO - Started process (PID=154) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:05:17.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:05:17.546+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:05:17.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:05:17.988+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:05:18.006+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:05:18.005+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:05:18.026+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:05:18.025+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:05:18.052+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.515 seconds
+[2025-01-23T00:05:48.166+0000] {processor.py:186} INFO - Started process (PID=163) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:05:48.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:05:48.170+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:05:48.170+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:05:48.685+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:05:48.706+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:05:48.705+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:05:48.726+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:05:48.725+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:05:48.750+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.591 seconds
+[2025-01-23T00:06:19.467+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:06:19.468+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:06:19.471+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:06:19.470+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:06:19.859+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:06:19.879+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:06:19.878+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:06:19.897+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:06:19.897+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:06:19.923+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.465 seconds
+[2025-01-23T00:06:50.163+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:06:50.164+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:06:50.167+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:06:50.167+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:06:50.552+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:06:50.580+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:06:50.579+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:06:50.602+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:06:50.602+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:06:50.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.468 seconds
+[2025-01-23T00:06:56.235+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:06:56.237+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:06:56.239+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:06:56.238+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:06:56.253+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:06:56.252+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 31
+    ")
+    ^
+SyntaxError: unterminated string literal (detected at line 31)
+[2025-01-23T00:06:56.254+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:06:56.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.054 seconds
+[2025-01-23T00:07:26.686+0000] {processor.py:186} INFO - Started process (PID=190) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:07:26.687+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:07:26.689+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:07:26.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:07:26.704+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:07:26.703+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 31
+    ")
+    ^
+SyntaxError: unterminated string literal (detected at line 31)
+[2025-01-23T00:07:26.704+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:07:26.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.038 seconds
+[2025-01-23T00:07:56.985+0000] {processor.py:186} INFO - Started process (PID=198) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:07:56.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:07:56.989+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:07:56.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:07:57.015+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:07:57.014+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 31
+    ")
+    ^
+SyntaxError: unterminated string literal (detected at line 31)
+[2025-01-23T00:07:57.016+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:07:57.031+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.050 seconds
+[2025-01-23T00:08:27.302+0000] {processor.py:186} INFO - Started process (PID=206) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:08:27.303+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:08:27.306+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:08:27.305+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:08:27.326+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:08:27.325+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 31
+    ")
+    ^
+SyntaxError: unterminated string literal (detected at line 31)
+[2025-01-23T00:08:27.327+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:08:27.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.063 seconds
+[2025-01-23T00:08:57.694+0000] {processor.py:186} INFO - Started process (PID=214) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:08:57.695+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:08:57.698+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:08:57.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:08:57.713+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:08:57.712+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 31
+    ")
+    ^
+SyntaxError: unterminated string literal (detected at line 31)
+[2025-01-23T00:08:57.714+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:08:57.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.050 seconds
+[2025-01-23T00:09:28.015+0000] {processor.py:186} INFO - Started process (PID=222) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:09:28.017+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:09:28.018+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:09:28.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:09:28.032+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:09:28.031+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 31
+    ")
+    ^
+SyntaxError: unterminated string literal (detected at line 31)
+[2025-01-23T00:09:28.033+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:09:28.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.049 seconds
+[2025-01-23T00:09:58.373+0000] {processor.py:186} INFO - Started process (PID=230) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:09:58.375+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:09:58.377+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:09:58.377+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:09:58.394+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:09:58.393+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 31
+    ")
+    ^
+SyntaxError: unterminated string literal (detected at line 31)
+[2025-01-23T00:09:58.395+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:09:58.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.051 seconds
+[2025-01-23T00:10:28.704+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:10:28.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:10:28.706+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:10:28.705+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:10:28.719+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:10:28.718+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 31
+    ")
+    ^
+SyntaxError: unterminated string literal (detected at line 31)
+[2025-01-23T00:10:28.719+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:10:28.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.035 seconds
+[2025-01-23T00:10:59.115+0000] {processor.py:186} INFO - Started process (PID=246) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:10:59.117+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:10:59.118+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:10:59.118+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:10:59.130+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:10:59.129+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 31
+    ")
+    ^
+SyntaxError: unterminated string literal (detected at line 31)
+[2025-01-23T00:10:59.130+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:10:59.157+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.046 seconds
+[2025-01-23T00:11:29.525+0000] {processor.py:186} INFO - Started process (PID=254) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:11:29.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:11:29.527+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:11:29.527+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:11:29.541+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:11:29.540+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 31
+    ")
+    ^
+SyntaxError: unterminated string literal (detected at line 31)
+[2025-01-23T00:11:29.541+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:11:29.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.045 seconds
+[2025-01-23T00:11:43.693+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:11:43.694+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:11:43.695+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:11:43.695+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:11:43.719+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:11:43.718+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 31
+    ")
+    ^
+SyntaxError: unterminated string literal (detected at line 31)
+[2025-01-23T00:11:43.720+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:11:43.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.048 seconds
+[2025-01-23T00:12:14.158+0000] {processor.py:186} INFO - Started process (PID=269) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:12:14.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:12:14.162+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:12:14.161+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:12:14.184+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:12:14.183+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 31
+    ")
+    ^
+SyntaxError: unterminated string literal (detected at line 31)
+[2025-01-23T00:12:14.185+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:12:14.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.053 seconds
+[2025-01-23T00:12:36.447+0000] {processor.py:186} INFO - Started process (PID=276) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:12:36.448+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:12:36.450+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:12:36.450+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:12:36.879+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:12:36.996+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:12:36.996+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:12:37.011+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:12:37.011+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:12:37.031+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.589 seconds
+[2025-01-23T00:13:07.182+0000] {processor.py:186} INFO - Started process (PID=285) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:13:07.183+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:13:07.185+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:13:07.184+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:13:07.567+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:13:07.587+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:13:07.586+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:13:07.606+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:13:07.606+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:13:07.636+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.459 seconds
+[2025-01-23T00:13:37.905+0000] {processor.py:186} INFO - Started process (PID=295) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:13:37.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:13:37.907+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:13:37.907+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:13:38.189+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:13:38.213+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:13:38.213+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:13:38.236+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:13:38.236+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-22 00:00:00+00:00, run_after=2025-01-23 00:00:00+00:00
+[2025-01-23T00:13:38.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.360 seconds
+[2025-01-23T00:14:08.312+0000] {processor.py:186} INFO - Started process (PID=304) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:14:08.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:14:08.315+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:14:08.315+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:14:08.599+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:14:08.621+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:14:08.621+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:14:08.641+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:14:08.640+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:14:08.657+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.352 seconds
+[2025-01-23T00:14:38.698+0000] {processor.py:186} INFO - Started process (PID=314) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:14:38.699+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:14:38.700+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:14:38.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:14:38.998+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:14:39.026+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:14:39.025+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:14:39.046+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:14:39.046+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:14:39.075+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.382 seconds
+[2025-01-23T00:15:00.987+0000] {processor.py:186} INFO - Started process (PID=317) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:15:00.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:15:00.990+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:15:00.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:15:01.263+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:15:01.284+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:15:01.284+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:15:01.303+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:15:01.303+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:15:01.333+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.351 seconds
+[2025-01-23T00:15:31.448+0000] {processor.py:186} INFO - Started process (PID=326) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:15:31.449+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:15:31.450+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:15:31.450+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:15:31.713+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:15:31.736+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:15:31.735+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:15:31.756+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:15:31.755+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:15:31.790+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.349 seconds
+[2025-01-23T00:16:01.859+0000] {processor.py:186} INFO - Started process (PID=336) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:16:01.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:16:01.862+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:16:01.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:16:02.176+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:16:02.198+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:16:02.198+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:16:02.220+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:16:02.220+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-22 00:00:00+00:00, run_after=2025-01-23 00:00:00+00:00
+[2025-01-23T00:16:02.248+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.397 seconds
+[2025-01-23T00:16:33.130+0000] {processor.py:186} INFO - Started process (PID=352) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:16:33.131+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:16:33.132+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:16:33.132+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:16:33.427+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:16:33.450+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:16:33.449+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:16:33.469+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:16:33.469+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:16:33.498+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.374 seconds
+[2025-01-23T00:17:03.652+0000] {processor.py:186} INFO - Started process (PID=361) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:17:03.653+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:17:03.655+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:17:03.654+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:17:04.046+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:17:04.068+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:17:04.067+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:17:04.087+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:17:04.087+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:17:04.116+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.471 seconds
+[2025-01-23T00:17:34.937+0000] {processor.py:186} INFO - Started process (PID=370) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:17:34.938+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:17:34.939+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:17:34.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:17:35.207+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:17:35.229+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:17:35.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:17:35.248+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:17:35.248+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:17:35.268+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.338 seconds
+[2025-01-23T00:18:05.394+0000] {processor.py:186} INFO - Started process (PID=379) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:18:05.395+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:18:05.396+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:18:05.396+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:18:05.670+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:18:05.690+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:18:05.690+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:18:05.710+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:18:05.710+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:18:05.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.352 seconds
+[2025-01-23T00:18:35.786+0000] {processor.py:186} INFO - Started process (PID=388) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:18:35.787+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:18:35.788+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:18:35.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:18:36.059+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:18:36.081+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:18:36.081+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:18:36.099+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:18:36.099+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:18:36.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.350 seconds
+[2025-01-23T00:19:06.227+0000] {processor.py:186} INFO - Started process (PID=397) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:19:06.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:19:06.231+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:19:06.230+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:19:06.529+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:19:06.549+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:19:06.549+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:19:06.568+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:19:06.568+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:19:06.598+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.376 seconds
+[2025-01-23T00:19:22.532+0000] {processor.py:186} INFO - Started process (PID=399) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:19:22.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:19:22.535+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:19:22.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:19:22.826+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:19:22.848+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:19:22.848+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:19:22.866+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:19:22.866+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:19:22.902+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.377 seconds
+[2025-01-23T00:19:53.030+0000] {processor.py:186} INFO - Started process (PID=408) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:19:53.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:19:53.033+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:19:53.032+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:19:53.290+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:19:53.312+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:19:53.312+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:19:53.332+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:19:53.332+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:19:53.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.335 seconds
+[2025-01-23T00:19:57.201+0000] {processor.py:186} INFO - Started process (PID=411) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:19:57.202+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:19:57.203+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:19:57.203+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:19:57.227+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:19:57.223+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 3, in <module>
+    from datetime import datetimez
+ImportError: cannot import name 'datetimez' from 'datetime' (/usr/local/lib/python3.12/datetime.py). Did you mean: 'datetime'?
+[2025-01-23T00:19:57.228+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:19:57.254+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.059 seconds
+[2025-01-23T00:20:27.590+0000] {processor.py:186} INFO - Started process (PID=419) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:20:27.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:20:27.592+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:20:27.592+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:20:27.608+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:20:27.604+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Module/CapstoneETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Module/CapstoneETL.py", line 3, in <module>
+    from datetime import datetimez
+ImportError: cannot import name 'datetimez' from 'datetime' (/usr/local/lib/python3.12/datetime.py). Did you mean: 'datetime'?
+[2025-01-23T00:20:27.610+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:20:27.626+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.041 seconds
+[2025-01-23T00:20:44.889+0000] {processor.py:186} INFO - Started process (PID=426) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:20:44.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:20:44.892+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:20:44.892+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:20:45.180+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:20:45.201+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:20:45.201+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:20:45.219+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:20:45.219+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:20:45.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.369 seconds
+[2025-01-23T00:21:15.370+0000] {processor.py:186} INFO - Started process (PID=435) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:21:15.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:21:15.372+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:21:15.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:21:15.677+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:21:15.698+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:21:15.698+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:21:15.719+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:21:15.719+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:21:15.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.379 seconds
+[2025-01-23T00:21:45.805+0000] {processor.py:186} INFO - Started process (PID=444) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:21:45.807+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:21:45.809+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:21:45.808+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:21:46.087+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:21:46.109+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:21:46.109+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:21:46.129+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:21:46.129+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-22 00:00:00+00:00, run_after=2025-01-23 00:00:00+00:00
+[2025-01-23T00:21:46.150+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.352 seconds
+[2025-01-23T00:22:16.241+0000] {processor.py:186} INFO - Started process (PID=453) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:22:16.242+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:22:16.243+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:22:16.243+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:22:16.508+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:22:16.530+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:22:16.530+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:22:16.550+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:22:16.550+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:22:16.578+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.343 seconds
+[2025-01-23T00:22:46.681+0000] {processor.py:186} INFO - Started process (PID=462) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:22:46.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:22:46.684+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:22:46.683+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:22:46.992+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:22:47.013+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:22:47.013+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:22:47.032+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:22:47.032+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:22:47.049+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.373 seconds
+[2025-01-23T00:23:17.139+0000] {processor.py:186} INFO - Started process (PID=471) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:23:17.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:23:17.141+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:23:17.141+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:23:17.411+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:23:17.437+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:23:17.436+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:23:17.458+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:23:17.458+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:23:17.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.355 seconds
+[2025-01-23T00:23:25.258+0000] {processor.py:186} INFO - Started process (PID=473) to work on /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:23:25.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Module/CapstoneETL.py for tasks to queue
+[2025-01-23T00:23:25.261+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:23:25.261+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:23:25.540+0000] {processor.py:925} INFO - DAG(s) 'Capstone_NYC' retrieved from /opt/airflow/dags/Module/CapstoneETL.py
+[2025-01-23T00:23:25.564+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:23:25.563+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-23T00:23:25.583+0000] {logging_mixin.py:190} INFO - [2025-01-23T00:23:25.583+0000] {dag.py:4180} INFO - Setting next_dagrun for Capstone_NYC to 2025-01-23 00:00:00+00:00, run_after=2025-01-24 00:00:00+00:00
+[2025-01-23T00:23:25.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Module/CapstoneETL.py took 0.363 seconds

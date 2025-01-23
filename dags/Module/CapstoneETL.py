@@ -27,11 +27,11 @@ def etl_process():
     engine = create_engine(database_url)
 
     # Step 1: Extract - Read CSV files
-    nycpayroll_2021_df = pd.read_csv("nycpayroll_2021.csv")
-    nycpayroll_2020_df = pd.read_csv("nycpayroll_2020.csv")
-    empmaster_df = pd.read_csv("Empmaster.csv")
-    titlemaster_df = pd.read_csv("TitleMaster.csv")
-    agencymaster_df = pd.read_csv("AgencyMaster.csv")
+    nycpayroll_2021_df = pd.read_csv("dags/nycpayroll_2021.csv")
+    nycpayroll_2020_df = pd.read_csv("dags/nycpayroll_2020.csv")
+    empmaster_df = pd.read_csv("dags/Empmaster.csv")
+    titlemaster_df = pd.read_csv("dags/TitleMaster.csv")
+    agencymaster_df = pd.read_csv("dags/AgencyMaster.csv")
 
     # Step 2: Transform - Clean and process data
     # Copy datasets
@@ -123,7 +123,7 @@ default_args = {
         'start_date': datetime(year=2025, month=1, day=22),
     'email_on_failure': False,
     'email_on_retry': False,
-    'retries': 1,  
+    'retries': None,  
 }
 
 # Define the DAG
