@@ -134,9 +134,8 @@ with DAG(
     description = 'an example DAG',
     schedule_interval = '0 0 * * *',
     catchup = False
-)
-
-    # ETL task
+) as dag:
+# ETL task
     etl_task = PythonOperator(
         task_id='etl_process',
         python_callable=etl_process
