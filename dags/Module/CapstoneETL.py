@@ -6,18 +6,18 @@ from dotenv import load_dotenv
 import os
 import pandas as pd
 
-# Load environment variables for database credentials
+# Load credentials using dotenv
 def load_env_variables():
     load_dotenv()
     return {
-        "host": os.getenv('db_host'),
-        "username": os.getenv('db_user'),
-        "password": os.getenv('db_password'),
-        "port": os.getenv('db_port'),
-        "db_name": os.getenv('db_name')
+        "host": os.getenv('host'),
+        "username": os.getenv('user'),
+        "password": os.getenv('password'),
+        "port": os.getenv('port'),
+        "db_name": os.getenv('name')
     }
 
-# Unified ETL function
+# Define the ETL process
 def etl_process():
     # Load environment variables
     creds = load_env_variables()
@@ -26,15 +26,15 @@ def etl_process():
     database_url = f"postgresql+psycopg2://{creds['username']}:{creds['password']}@{creds['host']}:{creds['port']}/{creds['db_name']}"
     engine = create_engine(database_url)
 
-    # Step 1: Extract - Read CSV files
-    nycpayroll_2021_df = pd.read_csv("dags/nycpayroll_2021.csv")
-    nycpayroll_2020_df = pd.read_csv("dags/nycpayroll_2020.csv")
-    empmaster_df = pd.read_csv("dags/Empmaster.csv")
-    titlemaster_df = pd.read_csv("dags/TitleMaster.csv")
-    agencymaster_df = pd.read_csv("dags/AgencyMaster.csv")
+    # Extraction
+    nycpayroll_2021_df = pd.read_csv("dag/nycpayroll_2021.csv")
+    nycpayroll_2020_df = pd.read_csv("dag/nycpayroll_2020.csv")
+    empmaster_df = pd.read_csv("dag/Empmaster.csv")
+    titlemaster_df = pd.read_csv("dag/TitleMaster.csv")
+    agencymaster_df = pd.read_csv("dag/AgencyMaster.csv")
 
-    # Step 2: Transform - Clean and process data
-    # Copy datasets
+    # Transformation
+    # (Include all transformation steps from earlier code)
     df_2021 = nycpayroll_2021_df.copy()
     df_2020 = nycpayroll_2020_df.copy()
     df_emp = empmaster_df.copy()
@@ -111,7 +111,7 @@ def etl_process():
         'basesalary': 'base_salary'
     }, inplace=True)
 
-    # Step 3: Load - Write DataFrames to PostgreSQL
+    # Load to PostgreSQL
     df_emp.to_sql('employee', engine, if_exists='replace', index=False)
     df_title.to_sql('title', engine, if_exists='replace', index=False)
     df_agency.to_sql('agency', engine, if_exists='replace', index=False)
@@ -119,23 +119,20 @@ def etl_process():
 
 # Define default args for Airflow DAG
 default_args = {
-    'owner': 'Ike onuoha',
-        'start_date': datetime(year=2025, month=1, day=22),
-    'email_on_failure': False,
-    'email_on_retry': False,
-    'retries': None,  
+    'owner': 'airflow',
+    'start_date': datetime(2025, 1, 1),
+    'retries': 1,
 }
 
 # Define the DAG
 with DAG(
-     'Capstone_NYC',
-    default_args = default_args,
-    description = 'an example DAG',
-    schedule_interval = '0 0 * * *',
-    catchup = False
+    dag_id='etl_extraction_transformation_loading',
+    default_args=default_args,
+    schedule_interval=None,  # Adjust as needed
+    catchup=False
 ) as dag:
 
-    # Unified ETL task
+    # ETL task
     etl_task = PythonOperator(
         task_id='etl_process',
         python_callable=etl_process
@@ -143,4 +140,5 @@ with DAG(
 
 # Set dependencies (if any)
 etl_task
+
 
