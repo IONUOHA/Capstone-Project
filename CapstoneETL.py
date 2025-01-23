@@ -8,11 +8,11 @@ from datetime import datetime, timedelta
 def extract(**kwargs):
     print("Extracting data...")
     # Your extraction logic here
-    nycpayroll_2021_df = pd.read_csv("nycpayroll_2021.csv")
-nycpayroll_2020_df = pd.read_csv("nycpayroll_2020.csv")
-empmaster_df = pd.read_csv("Empmaster.csv")
-TitleMaster_df = pd.read_csv("TitleMaster.csv")
-Agencymaster_df = pd.read_csv("AgencyMaster.csv")
+    nycpayroll_2021_df = pd.read_csv("dag/nycpayroll_2021.csv")
+nycpayroll_2020_df = pd.read_csv("dag/nycpayroll_2020.csv")
+empmaster_df = pd.read_csv("dag/Empmaster.csv")
+TitleMaster_df = pd.read_csv("dag/TitleMaster.csv")
+Agencymaster_df = pd.read_csv("dag/AgencyMaster.csv")
 
 
 

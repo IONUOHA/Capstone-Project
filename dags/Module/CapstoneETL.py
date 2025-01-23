@@ -117,20 +117,24 @@ def etl_process():
     df_agency.to_sql('agency', engine, if_exists='replace', index=False)
     nyc_payroll_combined.to_sql('nyc_payroll_combined', engine, if_exists='replace', index=False)
 
-# Define default args for Airflow DAG
-default_args = {
-    'owner': 'airflow',
-    'start_date': datetime(2025, 1, 1),
-    'retries': 1,
+## setting default arguments
+default_args ={
+    'owner': 'Ike_Onuoha',
+    'start_date': datetime(year=2025, month=1, day=23),
+    'email_on_failure': False,
+    'email_on_retry': False,
+    'retries': None,  
 }
 
-# Define the DAG
+
+## istantiate the DAG
 with DAG(
-    dag_id='etl_extraction_transformation_loading',
-    default_args=default_args,
-    schedule_interval=None,  # Adjust as needed
-    catchup=False
-) as dag:
+    'test_project',
+    default_args = default_args,
+    description = 'an example DAG',
+    schedule_interval = '0 0 * * *',
+    catchup = False
+)
 
     # ETL task
     etl_task = PythonOperator(
