@@ -27,11 +27,11 @@ def etl_process():
     engine = create_engine(database_url)
 
     # Extraction
-    nycpayroll_2021_df = pd.read_csv("dag/nycpayroll_2021.csv")
-    nycpayroll_2020_df = pd.read_csv("dag/nycpayroll_2020.csv")
-    empmaster_df = pd.read_csv("dag/Empmaster.csv")
-    titlemaster_df = pd.read_csv("dag/TitleMaster.csv")
-    agencymaster_df = pd.read_csv("dag/AgencyMaster.csv")
+    nycpayroll_2021_df = pd.read_csv("dags/nycpayroll_2021.csv")
+    nycpayroll_2020_df = pd.read_csv("dags/nycpayroll_2020.csv")
+    empmaster_df = pd.read_csv("dags/Empmaster.csv")
+    titlemaster_df = pd.read_csv("dags/TitleMaster.csv")
+    agencymaster_df = pd.read_csv("dags/AgencyMaster.csv")
 
     # Transformation
     # (Include all transformation steps from earlier code)
@@ -129,9 +129,9 @@ default_args ={
 
 ## istantiate the DAG
 with DAG(
-    'test_project',
+    'Capstone_project',
     default_args = default_args,
-    description = 'an example DAG',
+    description = 'Capstone DAG',
     schedule_interval = '0 0 * * *',
     catchup = False
 ) as dag:
